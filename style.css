@@ -42,7 +42,8 @@ body {
     width: 100%;
     text-transform: capitalize;
 }
-.search-bar:hover{
+
+.search-bar:hover {
     background: #7c7c7c8b;
 }
 
@@ -60,32 +61,32 @@ button {
     transition: 0.2s ease-in-out;
 }
 
-button:hover{
+button:hover {
     background-color: #7c7c7c8b;
 }
 
-h1.temp{
+h1.temp {
     margin: 0;
     margin-bottom: 0.5em;
 }
 
-.descriptio{
+.descriptio {
     text-transform: capitalize;
     margin-left: 8px;
 }
 
-.flex{
-display: flex;
-align-items: center;
+.flex {
+    display: flex;
+    align-items: center;
 }
 
-.loading{
+.loading {
     visibility: hidden;
     max-height: 0;
     position: relative;
 }
 
-.loading:after{
+.loading:after {
     visibility: visible;
     content: "loading...";
     color: rgba(245, 245, 245, 0.621);
